@@ -32,7 +32,7 @@ jobs:
           name: my-artifact
           path: downloaded-artifact
 
-      - name: Disply Artifact Content
+      - name: Display Artifact Content
            run: |
            ls -l downloaded-artifact/ Debugging: List file
            cat downloaded-artifact/artifact.txt || echo "file is empty or missing" 
