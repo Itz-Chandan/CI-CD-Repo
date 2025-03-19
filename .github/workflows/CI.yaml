@@ -12,7 +12,7 @@ jobs:
        - name: Build Project
          run: |
           mkdir -p output
-          echo "Hello, World!" > outupt/artifact.txt
+          echo "Hello, World!" > outpt/artifact.txt
           ls -l output/ # Debugging: List contents
           cat output/artifact.txt Debugging: Show file content
 
