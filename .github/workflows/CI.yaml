@@ -22,8 +22,8 @@ jobs:
            name: my-artifact
            path: output/
 
-download:
-    run-on: ubuntu-latest
+  download:
+    runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Download Artifact from GitHub Actions
