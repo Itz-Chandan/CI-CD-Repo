@@ -22,7 +22,7 @@ jobs:
            name: my-artifact
            path: output/
 
-  download:
+download:
     run-on: ubuntu-latest
     needs: build
     steps:
@@ -33,6 +33,6 @@ jobs:
           path: downloaded-artifact
 
       - name: Display Artifact Content
-           run: |
+        run: |
            ls -l downloaded-artifact/ Debugging: List file
            cat downloaded-artifact/artifact.txt || echo "file is empty or missing" 
