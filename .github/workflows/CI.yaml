@@ -35,4 +35,4 @@ jobs:
       - name: Disply Artifact Content
            run: |
            ls -l downloaded-artifact/ Debugging: List file
-           cat downloaded-artifact/artifact.txt || echo "file is empty or missing"
+           cat downloaded-artifact/artifact.txt || echo "file is empty or missing" 
